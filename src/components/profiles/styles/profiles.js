@@ -22,6 +22,7 @@ export const List = styled.ul`
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
     flex-direction: row;
 `;
 
@@ -49,5 +50,5 @@ export const Item = styled.li`
     max-width: 200px;
     list-style-type: none;
     text-align: center;
-    margin-right: 30px;
+    ${'' /* margin-right: 30px; */}
 `;

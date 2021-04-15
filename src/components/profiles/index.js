@@ -19,10 +19,11 @@ Profiles.User = function ProfilesUser({ children, ...restProps }) {
 };
 
 Profiles.Picture = function ProfilesPicture({ src, ...restProps }) {
+    console.log(src);
     return( 
         <Picture 
             {...restProps} 
-            src={src ? `/images/users/${src}.png` : `/images/mics/loading.gif`}
+            src={src ? `/images/users/${src}.png` : `/images/misc/loading.gif`}
         />
     );
 };
